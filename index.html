@@ -1,6 +1,17 @@
-<h1>Book Center</h1>
-<input type="text" name="fname"><br>
-Type<select class="right">
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>Book Center</h1>
+  <hr>
+  <br>
+  <input type="text" name="fname">
+  <br>
+  <br>
+  Type<select class="right">
     <option value="science">Science</option>
     <option value="geography">Geography</option>
     <option value="history">History</option>
@@ -10,6 +21,66 @@ Type<select class="right">
     <option value="archive">Archive</option>
     <option value="edit">Edit</option>
     <option value="delete">Delete</option>
-    <option value="collection">Collection</option>
+    <option value="collection">Collections</option>
   </select>
 
+
+  <br>
+  <br>
+
+  <table>
+
+    <tr>
+      <th class="titles">Radio</th>
+      <th class="titles" width=100>Cover</th>
+      <th class="titles" width="35%">Title</th>
+      <th class="titles">Author</th>
+      <th class="titles">Year</th>
+      <th class="titles">Type</th>
+      <th class="titles">Action</th>
+
+    </tr>
+    <tr>
+      <td>
+        <div class="radio">
+          <input type="radio" id='regular' name="optradio1">
+        </div>
+      </td>
+      <td><img src="CITR.jpg"></img></td>
+      <td>The Catcher in the Rye</td>
+      <td>J.D. Salinger</td>
+      <td>1951</td>
+      <td>Coming-of-Age Fiction</td>
+      <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="radio">
+          <input type="radio" id='regular' name="optradio2">
+        </div>
+      </td>
+      <td><img src="hp.jpg"></img></td>
+      <td>Harry Potter and the Prisoner of Azkaban</td>
+      <td>J.K Rowling</td>
+      <td>1999</td>
+      <td>Fantasy, Adventure, Mystery</td>
+      <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="radio">
+          <input type="radio" id='regular' name="optradio3">
+        </div>
+      </td>
+      <td><img src="kiteRun.jpg"></img></td>
+      <td>The Kite Runner</td>
+      <td>Khaled Hosseini</td>
+      <td>2003</td>
+      <td>Drama, Historical fiction</td>
+      <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+    </tr>
+
+  </table>
+</body>
+
+</html>
