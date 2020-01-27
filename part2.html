@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Book-Center</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function fade(className, action) {
+            switch (action) {
+                case "fadeIn":
+                    $(className).fadeIn();
+                    break;
+                case "fadeOut":
+                    $(className).fadeOut();
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Book Center</h1>
+    <hr>
+    <br />
+    <input type="text" name="fname">
+    <br />
+    <br />
+    <label>Type</label>
+    <select class="right">
+        <option value="science">Science</option>
+        <option value="geography">Geography</option>
+        <option value="history">History</option>
+        <option value="fashion">Fashion</option>
+    </select>
+    <label>Action</label>
+    <select class="left">
+        <option value="archive">Archive</option>
+        <option value="edit">Edit</option>
+        <option value="delete">Delete</option>
+        <option value="collection">Collections</option>
+    </select>
+    <br />
+    <br />
+    <table>
+        <tr>
+            <th>Cover</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Type</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="radioGroup">
+                <div class="radio">
+                    <input type="radio" name='image' name="optradio1" onClick="fade('.img1', 'fadeIn')">
+                     <label>Fade in</label>
+                </div>
+                <div class="radio">
+                <input type="radio" name='image' name="optradio2" onClick="fade('.img1', 'fadeOut')"> 
+                <label>Fade out</label>
+                </div>
+                </div>
+                    <img class="img1" src="CITR.jpg" />
+            </td>
+            <td>The Catcher in the Rye</td>
+            <td>J.D. Salinger</td>
+            <td>1951</td>
+            <td>Coming-of-Age Fiction</td>
+            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="radio">
+                    <input type="radio" id='regular' name="optradio1">
+                </div>
+                <img src="hp.jpg"></img>
+            </td>
+            <td>Harry Potter and the Prisoner of Azkaban</td>
+            <td>J.K Rowling</td>
+            <td>1999</td>
+            <td>Fantasy, Adventure, Mystery</td>
+            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="radio">
+                    <input type="radio" id='regular' name="optradio1">
+                </div>
+                <img src="kiteRun.jpg"></img>
+            </td>
+            <td>The Kite Runner</td>
+            <td>Khaled Hosseini</td>
+            <td>2003</td>
+            <td>Drama, Historical fiction</td>
+            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

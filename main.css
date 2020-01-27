@@ -1,8 +1,12 @@
-table, th, td {
-    border: 1px solid black;
-   
-  }
-  
+table{
+    border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+td, th {
+    padding:10px;
+    border: 1px solid #ddd;
+}
   
   h1{
   
@@ -10,33 +14,34 @@ table, th, td {
   }
   
   
-  table{
-      width:100%
-  }
   
   td{
       text-align: center;
   }
   
-  
-  tr{
-  color: black;
-  }
-  
   img{
-  
       height: 200;
       width: 150;
   }
-  .titles{
-  
-  color: red;
-  
+  th{ 
+    background: #2B2827;
+    color: #FFFFFF;
   }
-  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
   
   .covers{
   
        display:block;
   }
-  
+ .radio {
+    display: block;
+  }
+  .radioGroup{
+      text-align: left;
+  }
+ 
+  .container{
+      width: 100%;
+  }
