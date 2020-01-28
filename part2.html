@@ -46,8 +46,8 @@
     <br />
     <table>
         <tr>
-            <th>Cover</th>
-            <th>Title</th>
+            <th style="width: 15%">Cover</thstyle="width: 15%;">
+            <th style="width: 15%">Title</th>
             <th>Author</th>
             <th>Year</th>
             <th>Type</th>
@@ -55,51 +55,176 @@
         </tr>
         <tr>
             <td>
-                <div class="radioGroup">
-                <div class="radio">
-                    <input type="radio" name='image' name="optradio1" onClick="fade('.img1', 'fadeIn')">
-                     <label>Fade in</label>
-                </div>
-                <div class="radio">
-                <input type="radio" name='image' name="optradio2" onClick="fade('.img1', 'fadeOut')"> 
-                <label>Fade out</label>
-                </div>
-                </div>
-                    <img class="img1" src="CITR.jpg" />
+                <label>
+                    <input type="radio" name='cover1' onClick="fade('.cover1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='cover1' onClick="fade('.cover1', 'fadeOut')">
+                    Fade out</label>
+                <img class="cover1" src="CITR.jpg" />
             </td>
-            <td>The Catcher in the Rye</td>
-            <td>J.D. Salinger</td>
-            <td>1951</td>
-            <td>Coming-of-Age Fiction</td>
-            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+            <td>
+                <label>
+                    <input type="radio" name='title1' onClick="fade('.p1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='title1' onClick="fade('.p1', 'fadeOut')">
+                    Fade out</label>
+                <p class="p1">The Catcher in the Rye</p>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" name='author1' onClick="fade('.author1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='author1' onClick="fade('.author1', 'fadeOut')">
+                    Fade out</label>
+                <p class="author1">J.D. Salinger</p>
+               </td>
+            <td>
+                <label>
+                    <input type="radio" name='year1' onClick="fade('.year1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='year1' onClick="fade('.year1', 'fadeOut')">
+                    Fade out</label>
+                <p class="year1">1951</p>
+               </td>
+            <td>
+                <label>
+                    <input type="radio" name='type1' onClick="fade('.type1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='type1' onClick="fade('.type1', 'fadeOut')">
+                    Fade out</label>
+                <p class="type1">Coming-of-Age Fiction</p>
+               </td>
+            <td>
+                <label>
+                    <input type="radio" name='actions1' onClick="fade('.actions1', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='actions1' onClick="fade('.actions1', 'fadeOut')">
+                    Fade out</label>
+                <div class="actions1">
+                <button>1</button> <button>2</button> <button>3</button> <button>4</button>
+                    </div>
+            </td>
         </tr>
         <tr>
             <td>
-                <div class="radio">
-                    <input type="radio" id='regular' name="optradio1">
-                </div>
-                <img src="hp.jpg"></img>
+                <label>
+                    <input type="radio" name='cover2' onClick="fade('.cover2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='cover2' onClick="fade('.cover2', 'fadeOut')">
+                    Fade out</label>
+                <img class="cover2" src="hp.jpg"></img>
             </td>
-            <td>Harry Potter and the Prisoner of Azkaban</td>
-            <td>J.K Rowling</td>
-            <td>1999</td>
-            <td>Fantasy, Adventure, Mystery</td>
-            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+            <td>
+                <label>
+                    <input type="radio" name='title2' onClick="fade('.title2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='title2' onClick="fade('.title2', 'fadeOut')">
+                    Fade out</label>
+                <p class="title2">Harry Potter and the Prisoner of Azkaban</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='author2' onClick="fade('.author2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='author2' onClick="fade('.author2', 'fadeOut')">
+                    Fade out</label>
+                <p class="author2">J.K Rowling</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='year2' onClick="fade('.year2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='year2' onClick="fade('.year2', 'fadeOut')">
+                    Fade out</label>
+                <p class="year2">1999</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='type2' onClick="fade('.type2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='type2' onClick="fade('.type2', 'fadeOut')">
+                    Fade out</label>
+                <p class="type2">Fantasy, Adventure, Mystery</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='actions2' onClick="fade('.actions2', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='actions2' onClick="fade('.actions2', 'fadeOut')">
+                    Fade out</label>
+                <div class="actions2">
+                <button>1</button> <button>2</button> <button>3</button> <button>4</button>
+                    </div>
         </tr>
         <tr>
             <td>
-                <div class="radio">
-                    <input type="radio" id='regular' name="optradio1">
-                </div>
-                <img src="kiteRun.jpg"></img>
+                <label>
+                    <input type="radio" name='cover3' onClick="fade('.cover3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='cover3' onClick="fade('.cover3', 'fadeOut')">
+                    Fade out</label>
+                <img class="cover3" src="kiteRun.jpg"></img>
             </td>
-            <td>The Kite Runner</td>
-            <td>Khaled Hosseini</td>
-            <td>2003</td>
-            <td>Drama, Historical fiction</td>
-            <td><button>1</button> <button>2</button> <button>3</button> <button>4</button></td>
+            <td>
+                <label>
+                    <input type="radio" name='title3' onClick="fade('.title3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='title3' onClick="fade('.title3', 'fadeOut')">
+                    Fade out</label>
+                <p class="title3">The Kite Runner</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='author3' onClick="fade('.author3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='author3' onClick="fade('.author3', 'fadeOut')">
+                    Fade out</label>
+                <p class="author3">Khaled Hosseini</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='year3' onClick="fade('.year3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='year3' onClick="fade('.year3', 'fadeOut')">
+                    Fade out</label>
+                <p class="year3">2003</p>
+                </td>
+            <td>
+                <label>
+                    <input type="radio" name='type3' onClick="fade('.type3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='type3' onClick="fade('.type3', 'fadeOut')">
+                    Fade out</label>
+                <p class="type3">Drama, Historical fiction</p>
+               </td>
+            <td>
+                <label>
+                    <input type="radio" name='actions3' onClick="fade('.actions3', 'fadeIn')">
+                    Fade in</label>
+                <label>
+                    <input type="radio" name='actions3' onClick="fade('.actions3', 'fadeOut')">
+                    Fade out</label>
+                <div class="actions3">
+                <button>1</button> <button>2</button> <button>3</button> <button>4</button>
+                    </div>
         </tr>
-
     </table>
 </body>
 

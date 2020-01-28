@@ -1,11 +1,11 @@
 table{
     border-spacing: 0;
   width: 100%;
-  border: 1px solid #ddd;
+  border: 0.5px solid #ddd;
 }
 td, th {
     padding:10px;
-    border: 1px solid #ddd;
+    border: 0.5px solid #ddd;
 }
   
   h1{
@@ -13,7 +13,9 @@ td, th {
       text-align: center;
   }
   
-  
+  p{
+    border: 1px solid gray;
+  }
   
   td{
       text-align: center;
@@ -22,6 +24,7 @@ td, th {
   img{
       height: 200;
       width: 150;
+      /* vertical-align: middle; */
   }
   th{ 
     background: #2B2827;
@@ -31,17 +34,6 @@ td, th {
     background-color: #f2f2f2;
   }
   
-  .covers{
-  
-       display:block;
-  }
- .radio {
-    display: block;
-  }
-  .radioGroup{
-      text-align: left;
-  }
- 
-  .container{
-      width: 100%;
-  }
+ label,label input:hover{
+  cursor: pointer ;
+ }
