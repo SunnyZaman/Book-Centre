@@ -46,3 +46,17 @@ td, th {
   border: 2px solid gray;
   border-radius: 4px;
 }
+
+.animateButton{
+  background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.container{
+  position: relative;
+}    
